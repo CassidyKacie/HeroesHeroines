@@ -290,7 +290,7 @@ addEventTitle.addEventListener("input", (e) => {
   addEventTitle.value = addEventTitle.value.slice(0, 60);
 });
 
-function defineProperty() {
+/* function defineProperty() {
   var osccred = document.createElement("div");
   osccred.innerHTML =
     "A Project By <a href='https://www.youtube.com/channel/UCiUtBDVaSmMGKxg1HYeK-BQ' target=_blank>Open Source Coding</a>";
@@ -305,8 +305,8 @@ function defineProperty() {
   osccred.style.borderTopLeftRadius = "5px";
   osccred.style.borderBottomRightRadius = "5px";
   osccred.style.boxShadow = "0 0 5px #ccc";
-  document.body.appendChild(osccred);
-}
+  document.body.appendChild(osccred); 
+} */
 
 //defineProperty();
 
@@ -421,6 +421,7 @@ addEventSubmit.addEventListener("click", () => {
 });
 
 //function to delete event when clicked on event
+/*
 eventsContainer.addEventListener("click", (e) => {
   if (e.target.classList.contains("event")) {
     if (confirm("Are you sure you want to delete this event?")) {
@@ -451,7 +452,7 @@ eventsContainer.addEventListener("click", (e) => {
     }
   }
 });
-
+*/
 //function to save events in local storage
 function saveEvents() {
   localStorage.setItem("events", JSON.stringify(eventsArr));

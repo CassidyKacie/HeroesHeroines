@@ -21,16 +21,17 @@
 }
 
 body {
-  position: relative;
+ /* position: relative; */
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-bottom: 30px;
-  background-color: #e2e1dc;
+  background: url(images/dlr_back2.png), rgb(227, 0, 34)
+ /* background-color: #e2e1dc; */
 }
 .container {
-  position: relative;
+/*   position: relative; */
   width: 1200px;
   min-height: 850px;
   margin: 0 auto;
@@ -537,22 +538,3 @@ body {
   }
 }
 
-.credits {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  padding: 10px;
-  font-size: 12px;
-  color: #fff;
-  background-color: #b38add;
-}
-.credits a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-}
-.credits a:hover {
-  text-decoration: underline;
-}

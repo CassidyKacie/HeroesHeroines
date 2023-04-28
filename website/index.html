@@ -8,25 +8,25 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+
+<header>
+	<h1 class="text-center">Comic Book Shop</h1>
+	<nav class="navbar navbar-expand-lg justify-content-center">
+		<a id="navicon" href="#"><img src="dlr_navicon2.png" alt="" /></a>
+		<ul class="row list-unstyled d-flex justify-content-center">
+			<li class="col text-center"><a href="#"><img src="logo.png" alt="Comic Book Shop Logo" height="200px" class="img-fluid"></a></li>
+			<li class="col text-center"><a href="#" class="text-decoration-none text-dark">Home</a></li>
+			<li class="col text-center"><a href="#" class="text-decoration-none text-dark">Events Calendar</a></li>
+			<li class="col text-center"><a href="#" class="text-decoration-none text-dark">Shop</a></li>
+			<li class="col text-center"><a href="#" class="text-decoration-none text-dark">Blog</a></li>
+			<li class="col text-center"><a href="#" class="text-decoration-none text-dark">FAQs</a></li>
+			<li class="col text-center"><a href="#" class="text-decoration-none text-dark">Contact Us</a></li>
+			<li class="col text-center"><a href="#" class="text-decoration-none text-dark">Customer Login <i class="fa-solid fa-user"></i></a></li>
+		</ul>
+	</nav>
+</header>
+	
 <body>
-	<header>
-		<h1 class="text-center">Comic Book Shop</h1>
-		<nav class="navbar navbar-expand-lg justify-content-center">
-			<a id="navicon" href="#"><img src="dlr_navicon2.png" alt="" /></a>
-			<ul class="row list-unstyled d-flex justify-content-center">
-				<li class="col text-center"><a href="#"><img src="logo.png" alt="Comic Book Shop Logo" height="200px" class="img-fluid"></a></li>
-				<li class="col text-center"><a href="#" class="text-decoration-none text-dark">Home</a></li>
-				<li class="col text-center"><a href="#" class="text-decoration-none text-dark">Events Calendar</a></li>
-				<li class="col text-center"><a href="#" class="text-decoration-none text-dark">Shop</a></li>
-				<li class="col text-center"><a href="#" class="text-decoration-none text-dark">Blog</a></li>
-				<li class="col text-center"><a href="#" class="text-decoration-none text-dark">FAQs</a></li>
-				<li class="col text-center"><a href="#" class="text-decoration-none text-dark">Contact Us</a></li>
-				<li class="col text-center"><a href="#" class="text-decoration-none text-dark">Customer Login <i class="fa-solid fa-user"></i></a></li>
-			</ul>
-		</nav>
-	</header>
-</body>
-	<main>
 		<style>
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
@@ -119,8 +119,6 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 </style>
-</head>
-<body>
 
 <div class="slideshow-container">
 
@@ -183,38 +181,39 @@ function showSlides(n) {
 }
 </script>
 </div>
-
-		<section id="featured">
-<div style="display:flex;">
-  <div style="flex:1;">
-    <img src="https://theouterhaven.b-cdn.net/wp-content/uploads/2017/09/comiccon.jpg" alt="New-York-Comic-Con" style="width:100%;">
-  </div>
-  <div style="flex:1;">
-    <p>Come and See us at New York Comic Con.</p>
-  </div>
+	
+	<main>
+		<section id="featured1" class="container-fluid row justify-content-center p-0">
+			<div class="p-0 w-50 col media">
+				<img src="https://theouterhaven.b-cdn.net/wp-content/uploads/2017/09/comiccon.jpg" alt="New-York-Comic-Con" class="w-100 align-self-center">
+			</div>
+    			<div class="p-0 h-100 col text-center media-body">
+      				<p style="font-size: 1rem;">Come and See us at New York Comic Con. Coming to see the Hero's and Heroine's team at Comic Con is an exciting and thrilling experience for fans of all ages.</p>
+   			 </div>
 		</section>
 
-		</div>
-
-		<section id="featured2">
-<div style="display:flex;">
-  <div style="flex:1;">
-    <p>Come and meet the cast of Doom Patrol.</p>
-  </div>
-  <div style="flex:1;">
-  	<img src="https://i0.wp.com/sitedosgeeks.com/wp-content/uploads/2020/03/1_N-p-e0jL3dgENyj9leGubg.jpeg?fit=1200%2C675&ssl=1" alt="Doom-Patrol" style="width:100%;">
-  </div>
+		<section id="featured2" class="container-fluid row justify-content-center p-0">
+			<div class="p-0 h-100 col text-center media-body">
+				<p style="font-size: 1rem;">Come and See us at New York Comic Con. Coming to see the Hero's and Heroine's team at Comic Con is an exciting and thrilling experience for fans of all ages.</p>
+			</div>  
+			<div class="p-0 w-50 col media">
+				<img src="https://i0.wp.com/sitedosgeeks.com/wp-content/uploads/2020/03/1_N-p-e0jL3dgENyj9leGubg.jpeg?fit=1200%2C675&ssl=1" class="w-100 align-self-center">
+			</div>
 		</section>
-
-		<section id="featured3">
-<div style="display:flex;">
-  <div style="flex:1;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/FNw2_8DzEV0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
-  <div style="flex:1;">
-    <p>Come and See us at New York Comic Con.</p>
-  </div>
+		
+		<section id="featured3" class="container-fluid row justify-content-center p-0">
+			<div class="w-50 col media">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FNw2_8DzEV0" title="YouTube Video Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="h-100 col text-center media-body">
+				<p style="font-size: 1rem;">Come and See us at New York Comic Con. Coming to see the Hero's and Heroine's team at Comic Con is an exciting and thrilling experience for fans of all ages.</p>
+			</div>
 		</section>
+	</main>
+	
+	
 		<aside>
 			<h2>Shop Categories</h2>
 			<ul>
@@ -231,27 +230,29 @@ function showSlides(n) {
 			</form>
 		</aside>
 	</main>
-			
-	<footer>
-  		<nav>
-			<ul class="row list-unstyled d-flex justify-content-center">
-				<li class="col text-center">
-					<span>
-						Copyright © Comic Book Shop 2023. <br>
-          				</span>
-      				</li>
-      				<li class="col text-center">
-        				<a href="#">Terms and Conditions</a>
-					<br>
-           				<a href="#">Privacy Policy</a></li>
-      				<li class="col text-center">
-					<a href="#" class="text-decoration-none text-dark">Facebook</a>
-					<a href="#" class="text-decoration-none text-dark">Twitter</a> <br>
-					<a href="#" class="text-decoration-none text-dark">Instagram</a>
-     				 </li>
-   			</ul>
-		</nav>
-	</footer>
+	</body>
+
+<footer class="container sticky-bottom">
+	<nav class="sticky-bottom">
+		<ul class="row list-unstyled d-flex justify-content-center">
+			<li class="col text-center text-light">
+				<span>
+					Copyright © Comic Book Shop 2023. <br>
+				</span>
+			</li>
+			<li class="col text-center">
+				<a href="#" class="text-light">Terms and Conditions</a>
+				<br>
+				<a href="#" class="text-light">Privacy Policy</a>
+			</li>
+			<li class="col text-center">
+				<a href="#" class="text-decoration-none text-light">Facebook</a>
+				<a href="#" class="text-decoration-none text-light">Twitter</a> <br>
+				<a href="#" class="text-decoration-none text-light">Instagram</a>
+			</li>
+		</ul>
+	</nav>
+</footer>
 			
 </body>
 </html>

@@ -10,6 +10,14 @@
     // December 25, 2017
     2023: {
         5: {
+            6: [
+                // Comic Book Day
+                {
+                    startTime: "All",
+                    endTime: "Day",
+                    text: "Free Comic Book Day"
+                }
+            ],
             21: [
                 // Graduation
                 {

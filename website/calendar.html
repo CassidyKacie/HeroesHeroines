@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="description"
-      content="Heroes and Heroines Calendar"
-    />
-    
-    <link rel="stylesheet" type="text/css" href="css/evo-calendar.css"/>
-    <link rel="stylesheet" type="text/css" href="css/evo-calendar.midnight-blue.css"/>
-    <title>Calendar with Events</title>
-  <body>
-    <header>
-    <h1>comic book shop</h1>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CodePen - Calendar Javascript Library</title>
+  <link rel='stylesheet' href='https://cdn.rawgit.com/nizarmah/calendar-javascript-lib/master/calendarorganizer.min.css'><link rel="stylesheet" href="./style_calendar.css">
+  <link href="style_homepage.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <div id="page-container">
+   <div id="content-wrap">
+     <!-- all other page content -->
+   
+ <header>
+    <body>
+      <h1>comic book shop</h1>
     <img src="images/logo.png" alt="Comic Book Shop Logo" height="200px">
     <nav>
       <a id="navicon" href="#"><img src="dlr_navicon2.png" alt="" /></a>
@@ -28,29 +32,19 @@
          <i class="fa fa-home"></i>
       </ul>
     </nav>
+  </body>
   </header>
-</body>
-</head>
-  
-<body>
-
-    // this is where your calendar goes.. :)
-        <div id="calendar"></div>
-
-        // evo-calendar.js, right after jQuery (required)
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="js/evo-calendar.js"></script>
-
-        <script>
-        // initialize your calendar, once the page's DOM is ready
-        $(document).ready(function() {
-            $('#calendar').evoCalendar({
-                settingName: settingValue
-            })
-        })
-        </script>
-</main>
-    <footer>
+  <br>
+<!-- partial:index.partial.html -->
+<div id="calendar">
+<div id="calendarContainer"></div>
+<div id="organizerContainer"></div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+   <footer id="footer">
+ 
+ <footer>
     <p>Copyright © Comic Book Shop 2023.
       <a href="#">Terms and Conditions</a>
       <a href="#">Privacy Policy</a>
@@ -63,5 +57,9 @@
       </ul>
     </nav>
   </footer>
+</div>
+<!-- partial -->
+  <script src='https://cdn.rawgit.com/nizarmah/calendar-javascript-lib/master/calendarorganizer.min.js'></script><script  src="./script_calendar.js"></script>
+
 </body>
 </html>

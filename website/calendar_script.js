@@ -81,6 +81,15 @@
                 }
                 
             ],
+            27: [
+                // Table Top Game Night
+                {
+                    startTime: "17:30",
+                    endTime: "19:00",
+                    text: "Drinks and book signing with Stan Lee"
+                }
+                
+            ],
       
         },
         10: {

@@ -22,7 +22,7 @@ html, body {
 }
 
 body {
-  background-image: url("comic-background.jpg") !important;
+  background-image: url("./images/comic-background.jpg") !important;
   background-color: red !important;
   background-size: cover !important;
   background-position: center !important;

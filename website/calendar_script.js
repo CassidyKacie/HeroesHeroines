@@ -13,22 +13,111 @@
             21: [
                 // Graduation
                 {
-                    startTime: "00:00",
-                    endTime: "24:00",
-                    text: "Graduation"
+                    startTime: "10:30",
+                    endTime: "13:00",
+                    text: "GWU Commencement"
                 }
             ],
-      4: [
-                // Graduation Party
+            19: [
+                // Graduation GWSB
                 {
-                    startTime: "00:00",
-                    endTime: "24:00",
-                    text: "Graduation Soiree"
+                    startTime: "15:30",
+                    endTime: "17:00",
+                    text: "GWSB Master's and Doctoral Programs Celebration: Charles E. Smith Center"
                 }
                 
-            ]
+            ],
+            19: [
+                // Graduation GWSB
+                {
+                    startTime: "15:30",
+                    endTime: "17:00",
+                    text: "GWSB Master's and Doctoral Programs Celebration: Charles E. Smith Center"
+                }
+                
+            ],
+            3: [
+                // Table Top Game Night
+                {
+                    startTime: "19:30",
+                    endTime: "23:00",
+                    text: "Table Top Game Night"
+                }
+                
+            ],
+            10: [
+                // Table Top Game Night
+                {
+                    startTime: "19:30",
+                    endTime: "23:00",
+                    text: "Table Top Game Night"
+                }
+                
+            ],
+            17: [
+                // Table Top Game Night
+                {
+                    startTime: "19:30",
+                    endTime: "23:00",
+                    text: "Table Top Game Night"
+                }
+                
+            ],
+            24: [
+                // Table Top Game Night
+                {
+                    startTime: "19:30",
+                    endTime: "23:00",
+                    text: "Table Top Game Night"
+                }
+                
+            ],
+            31: [
+                // Table Top Game Night
+                {
+                    startTime: "19:30",
+                    endTime: "23:00",
+                    text: "Table Top Game Night"
+                }
+                
+            ],
       
-        }
+        },
+        10: {
+            12: [
+                // NYC Comic Con
+                {
+                    startTime: "8:00",
+                    endTime: "18:00",
+                    text: "NYC Comic Con"
+                }
+            ],
+            13: [
+                // NYC Comic Con
+                {
+                    startTime: "8:00",
+                    endTime: "18:00",
+                    text: "NYC Comic Con"
+                }
+            ],
+            14: [
+                // NYC Comic Con
+                {
+                    startTime: "8:00",
+                    endTime: "18:00",
+                    text: "NYC Comic Con"
+                }
+            ],
+            15: [
+                // NYC Comic Con
+                {
+                    startTime: "8:00",
+                    endTime: "18:00",
+                    text: "NYC Comic Con"
+                }
+            ]
+          }
+        
     }
 
   }
@@ -42,16 +131,16 @@
 // initializing a new calendar object, that will use an html container to create itself
 var calendar = new Calendar(
   "calendarContainer", // id of html container for calendar
-  "small", // size of calendar, can be small | medium | large
+  "medium", // size of calendar, can be small | medium | large
   [
     "Sunday", // left most day of calendar labels
     3 // maximum length of the calendar labels
   ],
   [
-    "#E91E63", // primary color
-    "#C2185B", // primary dark color
-    "#FFFFFF", // text color
-    "#F8BBD0" // text dark color
+    "rgb(227, 0, 34)", // primary color
+    "#ecb100", // primary dark color
+    "#E5E4E2", // text color
+    "#5c5c5c" // text dark color
   ]
 );
 

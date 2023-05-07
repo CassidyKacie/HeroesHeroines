@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Events Calendar</title>
     
-    <link rel="stylesheet" type="text/css" href="css/evo-calendar.css"/>
-    <link rel="stylesheet" type="text/css" href="css/evo-calendar.midnight-blue.css"/>
+   <link rel='stylesheet' href='https://cdn.rawgit.com/nizarmah/calendar-javascript-lib/master/calendarorganizer.min.css'><link rel="stylesheet" href="./calendar_style.css">
     <link rel="stylesheet" type="text/css" href="style_homepage.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -22,7 +21,7 @@
       <ul class="row list-unstyled d-flex justify-content-center align-items-center">
         
         <li class="col text-center">
-          <a href=" #" class="py-1 text-decoration-none text-dark"><img src="logo.png" alt="Comic Book Shop Logo" width="50" height="50" class="img-fluid"></a>
+          <a href=" #" class="py-1 text-decoration-none text-dark"><img src="./images/logo.png" alt="Comic Book Shop Logo" width="50" height="50" class="img-fluid"></a>
         </li>
         
         <li class="col text-center align-bottom">
@@ -57,21 +56,12 @@
     </nav>
   </header>
 <!--                    --Calendar--                            -->
-    // this is where your calendar goes.. :)
-        <div id="calendar"></div>
-
-        // evo-calendar.js, right after jQuery (required)
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="js/evo-calendar.js"></script>
-
-        <script>
-        // initialize your calendar, once the page's DOM is ready
-        $(document).ready(function() {
-            $('#calendar').evoCalendar({
-                settingName: settingValue
-            })
-        })
-        </script>
+   <section>
+      <!-- <partial:index.partial.html-->
+        <div id="calendarContainer"></div>
+      <div id="organizerContainer"></div>
+    </section>
+        
 </main>
   
 <!-- Footer -->
@@ -105,5 +95,7 @@
   </div>
   <!-- Copyright -->
 </footer>
+<!-- Calendar Script -->
+<script src='https://cdn.rawgit.com/nizarmah/calendar-javascript-lib/master/calendarorganizer.min.js'></script><script  src="./calendar_script.js"></script>
 </body>
 </html>

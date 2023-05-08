@@ -1,0 +1,12 @@
+#calSection {
+  display: block;
+  margin-left: 7.5%;
+  margin-right: 7,5%;
+  align-self: center;
+  margin-bottom: 750px;
+}
+
+#calendarContainer, #organizerContainer {
+  float: left;
+  margin: 2.5%;
+}

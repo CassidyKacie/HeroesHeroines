@@ -739,3 +739,4 @@ Organizer.prototype.setOnLongClickListener = function (theCase, backCallback, ne
             break;
     }
 }
+/* some code used under open source license. Copyright (c) 2020 by Nizar (https://codepen.io/nizarmah/pen/LkjjWV) */

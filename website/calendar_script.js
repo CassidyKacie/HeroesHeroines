@@ -23,7 +23,8 @@
                 {
                     startTime: "10:30",
                     endTime: "13:00",
-                    text: "GWU Commencement"
+                    text: "GWU Commencement",
+                    link: "https://commencement.gwu.edu/"
                 }
             ],
             19: [
@@ -31,16 +32,8 @@
                 {
                     startTime: "15:30",
                     endTime: "17:00",
-                    text: "GWSB Master's and Doctoral Programs Celebration: Charles E. Smith Center"
-                }
-                
-            ],
-            19: [
-                // Graduation GWSB
-                {
-                    startTime: "15:30",
-                    endTime: "17:00",
-                    text: "GWSB Master's and Doctoral Programs Celebration: Charles E. Smith Center"
+                    text: "GWSB Master's and Doctoral Programs Celebration: Charles E. Smith Center",
+                    link: "https://commencement.gwu.edu/"
                 }
                 
             ],
@@ -54,6 +47,13 @@
                 
             ],
             10: [
+                // Table Top Game Night
+                {
+                    startTime: "11:30",
+                    endTime: "13:00",
+                    text: "Lunch Comic Swap"
+                },
+                
                 // Table Top Game Night
                 {
                     startTime: "19:30",
@@ -106,7 +106,8 @@
                 {
                     startTime: "8:00",
                     endTime: "18:00",
-                    text: "NYC Comic Con"
+                    text: "NYC Comic Con",
+                    link: "https://www.newyorkcomiccon.com/"
                 }
             ],
             13: [
@@ -114,7 +115,8 @@
                 {
                     startTime: "8:00",
                     endTime: "18:00",
-                    text: "NYC Comic Con"
+                    text: "NYC Comic Con",
+                    link: "https://www.newyorkcomiccon.com/"
                 }
             ],
             14: [
@@ -122,7 +124,8 @@
                 {
                     startTime: "8:00",
                     endTime: "18:00",
-                    text: "NYC Comic Con"
+                    text: "NYC Comic Con",
+                    link: "https://www.newyorkcomiccon.com/"
                 }
             ],
             15: [
@@ -130,7 +133,8 @@
                 {
                     startTime: "8:00",
                     endTime: "18:00",
-                    text: "NYC Comic Con"
+                    text: "NYC Comic Con",
+                    link: "https://www.newyorkcomiccon.com/"
                 }
             ]
           }
@@ -167,3 +171,4 @@ var organizer = new Organizer(
   calendar, // defining the calendar that the organizer is related to
   data // giving the organizer the static data that should be displayed
 );
+/* some code used under open source license. Copyright (c) 2020 by Nizar (https://codepen.io/nizarmah/pen/LkjjWV) */
